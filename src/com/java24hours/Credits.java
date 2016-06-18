@@ -25,5 +25,10 @@ class Credits{
                 role2 + "\t" + actor2 + "\n"+
                 role3 + "\t" + actor3 + "\n"+
                 role4 + "\t" + actor4);
+        
+        String favorite = "chainsaw";
+        String guess = "poolcue";
+        System.out.println ("Is Fin's favorite weapon a " + guess + "?");
+        System.out.println("Anser: " + favorite.equals(guess));
     }
 }
