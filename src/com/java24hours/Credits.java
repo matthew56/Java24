@@ -13,8 +13,10 @@ class Credits{
         String actor2 = "Tara Reid";
         String role3 = "George";
         String actor3 = "John Heard";
+        actor3 = actor3.toLowerCase(); //makes all chars lower case
         String role4 = "Nova";
         String actor4 = "Cassie Scerbo";
+        actor4 = actor4.toUpperCase(); // makes all chars upper case
         //display information
         
         System.out.println(title + " (" + year + ")\n" +
