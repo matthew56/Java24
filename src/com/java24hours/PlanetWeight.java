@@ -3,7 +3,7 @@ package com.java24hours;
 class PlanetWeight{
     public static void main(String[] arguments){
         System.out.print("Your weight on Earth is  ");
-        double weight = 178;
+        double weight = 179;
         System.out.println(weight);
         
         System.out.print("Your weight on Mercury is  ");
