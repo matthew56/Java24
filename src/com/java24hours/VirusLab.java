@@ -1,5 +1,13 @@
 package com.java24hours;
 
+/*
+*This program requires that the Run:Set Project Configuration: Customize dialog
+*be used to set the startup to THIS main method AND to set the number of fake 
+*virus objects are to be created and report to the screen. I added a few specific
+*array numbers so that I can verify that each virus created, has its own unique
+*name.
+*/
+
 public class VirusLab {
     public static void main(String[] arguments) {
         int numViruses = Integer.parseInt(arguments[0]);
