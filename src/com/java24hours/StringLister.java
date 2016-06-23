@@ -23,6 +23,7 @@ public class StringLister{
             System.out.println(name);
         }
     }
+    
     public static void main(String[] arguments) {
         StringLister lister = new StringLister(arguments);
         
