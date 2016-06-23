@@ -1,5 +1,9 @@
 package com.java24hours;
 
+/* this application requires that  the main method is set in the configuration
+along with adding  the names that are to be added to the selection of names to 
+be sorted in addition to the base set...
+*/
 import java.util.*;
 
 public class StringLister{
