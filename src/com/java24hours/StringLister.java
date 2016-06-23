@@ -5,8 +5,7 @@ import java.util.*;
 public class StringLister{
     String[] names = {"Spanky","Alfalfa","Buckwheat","Daria",
         "Stymie","Marianne","Scotty","Tommy","Chubby"};
-    
-    
+       
     public StringLister(String[] moreNames){
         ArrayList<String> list = new ArrayList<String>();
         
