@@ -65,6 +65,7 @@ public class LinkRotator extends JFrame implements Runnable, ActionListener{
 
     }
     
+    @Override
     public void run(){
         Thread thisThread = Thread.currentThread();
         while(runner == thisThread){
@@ -82,6 +83,7 @@ public class LinkRotator extends JFrame implements Runnable, ActionListener{
         }
     }
     
+    @Override
     public void actionPerformed(ActionEvent event){
         Desktop desktop = Desktop.getDesktop();
         if (pageLink[current] != null){
